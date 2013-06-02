@@ -68,6 +68,41 @@
 
 }
 
+- (void) removeCellFromSuperView
+{
+    CGRect frame1 = self.viewStatic.frame;
+    CGRect frame2 = self.viewMovable.frame;
+
+    int w = self.frame.size.width;
+    
+    int offs = w - frame1.origin.x;
+
+    frame1.origin.x = w + 1; // outside the screen
+    frame2.origin.x = frame2.origin.x + offs + 1; // outside the screen
+    
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:self.animationDuration];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(removeCellRowAnimated)];
+    
+    self.viewStatic.frame = frame1;
+    self.viewMovable.frame = frame2;
+    
+    [UIView commitAnimations];
+    
+    //[self removeCellRowAnimated];
+}
+
+- (void) removeCellRowAnimated
+{
+    UITableView * tv = (UITableView *) self.superview;
+    
+    NSArray *deleteIndexPaths = [[NSArray alloc] initWithObjects:[tv indexPathForCell:self], nil];
+    [tv beginUpdates];
+    [tv deleteRowsAtIndexPaths:deleteIndexPaths withRowAnimation:UITableViewRowAnimationFade];
+    [tv endUpdates];
+}
+
 - (void) closeCell:(bool)animated
 {
     if (!self.isCellOpen) return;

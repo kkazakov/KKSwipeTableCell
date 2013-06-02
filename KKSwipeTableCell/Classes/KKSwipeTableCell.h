@@ -19,6 +19,7 @@
 @property (nonatomic) float animationDuration;
 
 
+- (void) removeCellFromSuperView;
 - (void) closeCell:(bool)animated;
 
 @end

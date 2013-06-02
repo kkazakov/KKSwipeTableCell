@@ -119,14 +119,8 @@
             [myData removeObjectAtIndex:selectedIndexPath.row];
             
             // remove cell
-            
-            
-            NSArray *deleteIndexPaths = [[NSArray alloc] initWithObjects:selectedIndexPath, nil];
-            
-            [self.tableView beginUpdates];
-            [self.tableView deleteRowsAtIndexPaths:deleteIndexPaths withRowAnimation:UITableViewRowAnimationFade];
-            [self.tableView endUpdates];
-            
+            KKSwipeTableCell * cell = (KKSwipeTableCell*) [self.tableView cellForRowAtIndexPath:selectedIndexPath];
+            [cell removeCellFromSuperView];
             
         }
     }
