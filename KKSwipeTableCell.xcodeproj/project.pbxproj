@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D958830F175AFF9B00B5CECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D958830E175AFF9B00B5CECE /* UIKit.framework */; };
+		D9588311175AFF9B00B5CECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9588310175AFF9B00B5CECE /* Foundation.framework */; };
+		D9588313175AFF9B00B5CECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9588312175AFF9B00B5CECE /* CoreGraphics.framework */; };
+		D9588319175AFF9B00B5CECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9588317175AFF9B00B5CECE /* InfoPlist.strings */; };
+		D958831B175AFF9B00B5CECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D958831A175AFF9B00B5CECE /* main.m */; };
+		D958831F175AFF9B00B5CECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D958831E175AFF9B00B5CECE /* AppDelegate.m */; };
+		D9588321175AFF9B00B5CECE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9588320175AFF9B00B5CECE /* Default.png */; };
+		D9588323175AFF9B00B5CECE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9588322175AFF9B00B5CECE /* Default@2x.png */; };
+		D9588325175AFF9B00B5CECE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9588324175AFF9B00B5CECE /* Default-568h@2x.png */; };
+		D9588328175AFF9B00B5CECE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9588326175AFF9B00B5CECE /* MainStoryboard.storyboard */; };
+		D9588334175AFFE800B5CECE /* KKSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9588333175AFFE800B5CECE /* KKSwipeTableCell.m */; };
+		D9588337175B009300B5CECE /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9588336175B009300B5CECE /* KKViewController.m */; };
+		D958833A175B015000B5CECE /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9588339175B015000B5CECE /* MyCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D958830B175AFF9B00B5CECE /* KKSwipeTableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKSwipeTableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D958830E175AFF9B00B5CECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9588310175AFF9B00B5CECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9588312175AFF9B00B5CECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9588316175AFF9B00B5CECE /* KKSwipeTableCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKSwipeTableCell-Info.plist"; sourceTree = "<group>"; };
+		D9588318175AFF9B00B5CECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D958831A175AFF9B00B5CECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D958831C175AFF9B00B5CECE /* KKSwipeTableCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKSwipeTableCell-Prefix.pch"; sourceTree = "<group>"; };
+		D958831D175AFF9B00B5CECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D958831E175AFF9B00B5CECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9588320175AFF9B00B5CECE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D9588322175AFF9B00B5CECE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D9588324175AFF9B00B5CECE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9588327175AFF9B00B5CECE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D9588332175AFFE800B5CECE /* KKSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSwipeTableCell.h; sourceTree = "<group>"; };
+		D9588333175AFFE800B5CECE /* KKSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSwipeTableCell.m; sourceTree = "<group>"; };
+		D9588335175B009300B5CECE /* KKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
+		D9588336175B009300B5CECE /* KKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
+		D9588338175B015000B5CECE /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		D9588339175B015000B5CECE /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9588308175AFF9B00B5CECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958830F175AFF9B00B5CECE /* UIKit.framework in Frameworks */,
+				D9588311175AFF9B00B5CECE /* Foundation.framework in Frameworks */,
+				D9588313175AFF9B00B5CECE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9588302175AFF9B00B5CECE = {
+			isa = PBXGroup;
+			children = (
+				D9588314175AFF9B00B5CECE /* KKSwipeTableCell */,
+				D958830D175AFF9B00B5CECE /* Frameworks */,
+				D958830C175AFF9B00B5CECE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D958830C175AFF9B00B5CECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D958830B175AFF9B00B5CECE /* KKSwipeTableCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D958830D175AFF9B00B5CECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D958830E175AFF9B00B5CECE /* UIKit.framework */,
+				D9588310175AFF9B00B5CECE /* Foundation.framework */,
+				D9588312175AFF9B00B5CECE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9588314175AFF9B00B5CECE /* KKSwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D9588331175AFFD400B5CECE /* Classes */,
+				D958831D175AFF9B00B5CECE /* AppDelegate.h */,
+				D958831E175AFF9B00B5CECE /* AppDelegate.m */,
+				D9588326175AFF9B00B5CECE /* MainStoryboard.storyboard */,
+				D9588315175AFF9B00B5CECE /* Supporting Files */,
+				D9588338175B015000B5CECE /* MyCell.h */,
+				D9588339175B015000B5CECE /* MyCell.m */,
+				D9588335175B009300B5CECE /* KKViewController.h */,
+				D9588336175B009300B5CECE /* KKViewController.m */,
+			);
+			path = KKSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		D9588315175AFF9B00B5CECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9588316175AFF9B00B5CECE /* KKSwipeTableCell-Info.plist */,
+				D9588317175AFF9B00B5CECE /* InfoPlist.strings */,
+				D958831A175AFF9B00B5CECE /* main.m */,
+				D958831C175AFF9B00B5CECE /* KKSwipeTableCell-Prefix.pch */,
+				D9588320175AFF9B00B5CECE /* Default.png */,
+				D9588322175AFF9B00B5CECE /* Default@2x.png */,
+				D9588324175AFF9B00B5CECE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9588331175AFFD400B5CECE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9588332175AFFE800B5CECE /* KKSwipeTableCell.h */,
+				D9588333175AFFE800B5CECE /* KKSwipeTableCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D958830A175AFF9B00B5CECE /* KKSwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D958832E175AFF9B00B5CECE /* Build configuration list for PBXNativeTarget "KKSwipeTableCell" */;
+			buildPhases = (
+				D9588307175AFF9B00B5CECE /* Sources */,
+				D9588308175AFF9B00B5CECE /* Frameworks */,
+				D9588309175AFF9B00B5CECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKSwipeTableCell;
+			productName = KKSwipeTableCell;
+			productReference = D958830B175AFF9B00B5CECE /* KKSwipeTableCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9588303175AFF9B00B5CECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Krasimir Kazakov";
+			};
+			buildConfigurationList = D9588306175AFF9B00B5CECE /* Build configuration list for PBXProject "KKSwipeTableCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9588302175AFF9B00B5CECE;
+			productRefGroup = D958830C175AFF9B00B5CECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D958830A175AFF9B00B5CECE /* KKSwipeTableCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9588309175AFF9B00B5CECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9588319175AFF9B00B5CECE /* InfoPlist.strings in Resources */,
+				D9588321175AFF9B00B5CECE /* Default.png in Resources */,
+				D9588323175AFF9B00B5CECE /* Default@2x.png in Resources */,
+				D9588325175AFF9B00B5CECE /* Default-568h@2x.png in Resources */,
+				D9588328175AFF9B00B5CECE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9588307175AFF9B00B5CECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958831B175AFF9B00B5CECE /* main.m in Sources */,
+				D958831F175AFF9B00B5CECE /* AppDelegate.m in Sources */,
+				D9588334175AFFE800B5CECE /* KKSwipeTableCell.m in Sources */,
+				D9588337175B009300B5CECE /* KKViewController.m in Sources */,
+				D958833A175B015000B5CECE /* MyCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9588317175AFF9B00B5CECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9588318175AFF9B00B5CECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9588326175AFF9B00B5CECE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9588327175AFF9B00B5CECE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D958832C175AFF9B00B5CECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D958832D175AFF9B00B5CECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D958832F175AFF9B00B5CECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKSwipeTableCell/KKSwipeTableCell-Prefix.pch";
+				INFOPLIST_FILE = "KKSwipeTableCell/KKSwipeTableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9588330175AFF9B00B5CECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKSwipeTableCell/KKSwipeTableCell-Prefix.pch";
+				INFOPLIST_FILE = "KKSwipeTableCell/KKSwipeTableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9588306175AFF9B00B5CECE /* Build configuration list for PBXProject "KKSwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958832C175AFF9B00B5CECE /* Debug */,
+				D958832D175AFF9B00B5CECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D958832E175AFF9B00B5CECE /* Build configuration list for PBXNativeTarget "KKSwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958832F175AFF9B00B5CECE /* Debug */,
+				D9588330175AFF9B00B5CECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9588303175AFF9B00B5CECE /* Project object */;
+}
